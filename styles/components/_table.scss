@@ -1,0 +1,36 @@
+$base: #5BB9B8;
+$subtle: #54a1a0;
+$rain: #2C3845;
+$poppy: #BD2A4E;
+
+table{
+    width: 99%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-top: 1rem;
+    th, td{
+        border: 1px solid #ddd;
+        padding: 1.2rem;
+    }
+    thead{
+        th{
+            text-align: left;
+            background-color: #111111;
+            border: 0.06rem solid darken($rain, 6%);
+            color: white;
+        }
+    }
+     td {
+         border: 0.06rem solid darken($rain, 2%);
+         &:before {
+             display: none;
+         }
+     }
+    tr:nth-child(even) {
+        background-color: darken($rain, 6%);
+    }
+     tr:nth-child(odd) {
+         background-color: darken($rain, 4%);
+     }
+    
+}
