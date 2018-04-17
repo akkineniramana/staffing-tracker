@@ -1,6 +1,8 @@
-// @import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 @import './base/settings';
 @import './base/base';
 @import './components/header.scss';
 @import './components/table.scss';
+@import './components/oppEditModal.scss';
 @import './components/tablerow.scss';
+@import './components/modal.scss';
